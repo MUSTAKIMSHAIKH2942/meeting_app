@@ -1,4 +1,4 @@
-# meeting_app
+# Meeting_app
 Here's a complete `README.md` for a **Meeting Application** with **User Authentication** using Django REST Framework and JWT. This version is professional, clean, and suitable for documentation, GitHub projects, or internal presentations.
 
 ---
