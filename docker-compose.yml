@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+      - db
+  redis:
+    image: redis:latest
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: meetingdb
+      POSTGRES_USER: your_user
+      POSTGRES_PASSWORD: your_password
